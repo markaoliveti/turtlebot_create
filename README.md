@@ -7,7 +7,7 @@ cd ~/catkin_ws/src/
 git clone https://github.com/markaoliveti/turtlebot_create/
 cd ~/catkin_ws/
 catkin_make
-source develop/setup.bash
+source devel/setup.bash
 ```
 we need to enable usb
 ```
