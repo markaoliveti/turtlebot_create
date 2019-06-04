@@ -8,5 +8,12 @@ git clone https://github.com/markaoliveti/turtlebot_create/
 cd ~/catkin_ws/
 catkin_make
 source develop/setup.bash
+```
+we need to enable usb
+```
+sudo usermod -a -G dialout $USER
+```
+Now, we can run the command
+```
 rosrun create_node turtlebot_node.py 
 ```
